@@ -21,5 +21,5 @@ st.link_button("🚀 Open Model App", "https://population-logistic-growth.stream
 st.caption("**Skills:** NumPy, Matplotlib, Numerical Methods, SciPy")
 
 st.divider()
-st.write("**Email:** danielmusyoki5111@gmail.com")
+st.write("**Email:** danielmunyali356@gmail.com")
 st.write("**Location:** Nairobi, KE | Open to Data Analyst / Innovation Analyst roles")
