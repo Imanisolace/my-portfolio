@@ -116,34 +116,3 @@ elif st.session_state.page == "contact":
     
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown('<p class="caption">Targeting: Innovation Analyst / Business Analytics roles | Nairobi, KE</p>', unsafe_allow_html=True)
-
-# PROJECTS 
-elif st.session_state.page == "projects":
-    st.button("← Back", on_click=go_home)
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.title("Tools Built for Business Impact")
-    
-    st.markdown("---")
-    st.subheader("1. Financial Risk Dashboard")
-    st.write("Interactive dashboard for financial data validation + scenario testing. Built to flag portfolio risks and support client reporting decisions fast.")
-    st.link_button("🚀 Launch Dashboard", "https://financedashbpy-cx8jx3ylrwnf4y3aswzaly.streamlit.app/", use_container_width=True)
-    st.markdown('<p class="caption">Britam Relevance: Risk validation, Portfolio monitoring | Stack: Pandas, Plotly, Data Integrity</p>', unsafe_allow_html=True)
-    
-    st.markdown("---")
-    st.subheader("2. Predictive Growth Model")
-    st.write("Numerical PDE solver for growth/claim forecasting. Test 'what-if' parameters before committing capital. Built for actuarial + strategy teams.")
-    st.link_button("🚀 Run Model", "https://population-logistic-growth.streamlit.app/", use_container_width=True)
-    st.markdown('<p class="caption">Britam Relevance: Claims forecasting, Stress testing | Stack: NumPy, SciPy, Numerical Methods</p>', unsafe_allow_html=True)
-
-#  CONTACT 
-elif st.session_state.page == "contact":
-    st.button("← Back", on_click=go_home)
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.title("Let's Build Together")
-    st.markdown("---")
-    st.write("**Daniel Musembi**")
-    st.write("BSc Applied Mathematics & Computer Science, Kenyatta University")
-    st.write("**Email:** danielmunyali356@gmail.com")
-    st.write("**whatsapp:** https://wa.me/qr/ATOJA2XM3OEPG1")
-    st.write("**Location:** Nairobi, KE")
-    st.markdown("<br>", unsafe_allow_html=True)
