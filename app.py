@@ -6,7 +6,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# CUSTOM STYLING 
+# --- CUSTOM STYLING - FIXED CONTRAST FOR MOBILE ---
 st.markdown("""
 <style>
     .stApp {
@@ -15,7 +15,7 @@ st.markdown("""
     h1, h2, h3, p, span {
         color: #E6F1FF !important;
     }
-    /* FIXED: Dark navy text on gold for mobile readability */
+    /* FIXED: Dark navy text on gold for readability */
     .stButton>button {
         background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%) !important;
         color: #0A192F !important;
@@ -56,15 +56,20 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# PAGE STATE
+# --- PAGE STATE ---
 if "page" not in st.session_state:
     st.session_state.page = "home"
 
-def go_home(): st.session_state.page = "home"
-def go_projects(): st.session_state.page = "projects" 
-def go_contact(): st.session_state.page = "contact"
+def go_home(): 
+    st.session_state.page = "home"
 
-# HOME 
+def go_projects(): 
+    st.session_state.page = "projects" 
+
+def go_contact(): 
+    st.session_state.page = "contact"
+
+# --- HOME ---
 if st.session_state.page == "home":
     st.markdown("<br>", unsafe_allow_html=True)
     st.title("Innovation & Risk Analytics")
@@ -81,7 +86,7 @@ if st.session_state.page == "home":
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown('<p class="caption">Targeting: Innovation Analyst / Business Analytics roles | Nairobi, KE</p>', unsafe_allow_html=True)
 
-# PROJECTS
+# --- PROJECTS ---
 elif st.session_state.page == "projects":
     st.button("← Back", on_click=go_home)
     st.markdown("<br>", unsafe_allow_html=True)
@@ -99,7 +104,7 @@ elif st.session_state.page == "projects":
     st.link_button("🚀 Run Model", "https://population-logistic-growth.streamlit.app/", use_container_width=True)
     st.markdown('<p class="caption">Britam Relevance: Claims forecasting, Stress testing | Stack: NumPy, SciPy, Numerical Methods</p>', unsafe_allow_html=True)
 
-# CONTACT 
+# --- CONTACT ---
 elif st.session_state.page == "contact":
     st.button("← Back", on_click=go_home)
     st.markdown("<br>", unsafe_allow_html=True)
@@ -111,8 +116,4 @@ elif st.session_state.page == "contact":
     st.write("**WhatsApp:** [Chat on WhatsApp](https://wa.me/qr/ATOJA2XM3OEPG1)")
     st.write("**Location:** Nairobi, KE")
     st.markdown("<br>", unsafe_allow_html=True)
-    st.write("Looking to join teams using analytics to reduce risk, improve customer experience, and drive innovation at scale.")    with col2:
-        st.button("Contact Me", use_container_width=True, on_click=go_contact)
-    
-    st.markdown("<br><br>", unsafe_allow_html=True)
-    st.markdown('<p class="caption">Targeting: Innovation Analyst / Business Analytics roles | Nairobi, KE</p>', unsafe_allow_html=True)
+    st.write("Looking to join teams using analytics to reduce risk, improve customer experience, and drive innovation at scale.")
