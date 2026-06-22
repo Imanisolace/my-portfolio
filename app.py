@@ -147,4 +147,3 @@ elif st.session_state.page == "contact":
     st.write("**whatsapp:** https://wa.me/qr/ATOJA2XM3OEPG1")
     st.write("**Location:** Nairobi, KE")
     st.markdown("<br>", unsafe_allow_html=True)
-    st.write("Looking to join teams using analytics to reduce risk, improve customer experience, and drive innovation at scale.")
