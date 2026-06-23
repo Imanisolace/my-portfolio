@@ -2,17 +2,17 @@
     background: linear-gradient(180deg, #0A192F 0%, #112240 100%);
 }
 
-/* Dark grey text for everything */
-h1, h2, h3, p, span, div {
-    color: #374151 !important;
+/* FORCE WHITE TEXT EVERYWHERE - no more vanishing */
+h1, h2, h3, h4, h5, h6, p, span, div, li, label {
+    color: #FFFFFF !important;
 }
 
-/* LIGHT GOLD buttons with DARK GREY text */
+/* GOLD buttons with DARK NAVY text */
 .stLinkButton a {
-    background: linear-gradient(90deg, #FFF2CC 0%, #FFD93B 100%) !important;
-    color: #374151 !important;
+    background: linear-gradient(90deg, #FFD700 0%, #FFB700 100%) !important;
+    color: #0A192F !important;
     font-weight: 800 !important;
-    border: 2px solid #FFD93B !important;
+    border: none !important;
     border-radius: 12px !important;
     padding: 14px !important;
     font-size: 16px !important;
@@ -21,15 +21,15 @@ h1, h2, h3, p, span, div {
     text-align: center !important;
 }
 .stLinkButton a:hover {
-    background: linear-gradient(90deg, #FFD93B 0%, #FCD34D 100%) !important;
+    background: linear-gradient(90deg, #FFB700 0%, #FFA500 100%) !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 20px rgba(255, 217, 59, 0.3) !important;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4) !important;
 }
 
 hr {
-    border-top: 1px solid #D1D5DB !important;
+    border-top: 1px solid #233554 !important;
 }
 .caption {
-    color: #6B7280 !important;
+    color: #A8B2D1 !important;  /* Light blue-grey for footer, still visible */
     font-size: 13px !important;
 }
