@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Load CSS from external file
+# Load CSS
 def load_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -21,25 +21,25 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("1. Risk Dashboard")
-    st.write("Interactive dashboard for monitoring credit risk exposure in real-time.")
+    st.write("Interactive dashboard for monitoring credit risk exposure.")
     st.link_button("Live App", "https://your-risk-app.streamlit.app")
-    st.link_button("View Code", "https://github.com/yourusername/risk-dashboard")
+    st.link_button("GitHub Code", "https://github.com/yourusername/risk-dashboard")
     
-    st.subheader("2. Credit Scoring Model")
-    st.write("ML model predicting default probability with 89% accuracy using XGBoost.")
+    st.subheader("2. Credit Scoring Model") 
+    st.write("ML model predicting default probability with 89% accuracy.")
     st.link_button("Live Demo", "https://your-credit-app.streamlit.app")
-    st.link_button("View Code", "https://github.com/yourusername/credit-model")
+    st.link_button("GitHub Code", "https://github.com/yourusername/credit-model")
 
 with col2:
     st.subheader("3. Portfolio Optimizer")
-    st.write("Tool for optimizing asset allocation based on risk tolerance and returns.")
+    st.write("Tool for optimizing asset allocation based on risk tolerance.")
     st.link_button("Live App", "https://your-portfolio-app.streamlit.app")
-    st.link_button("View Code", "https://github.com/yourusername/portfolio-opt")
+    st.link_button("GitHub Code", "https://github.com/yourusername/portfolio-opt")
 
 # --- CONTACT ---
 st.markdown("---")
 st.header("Contact")
-st.write("📧 daniel.email@example.com")
+st.write("📧 your.email@example.com")
 st.write("🔗 [LinkedIn](https://linkedin.com/in/yourprofile)")
 st.write("🐙 [GitHub](https://github.com/yourusername)")
 
