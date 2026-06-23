@@ -29,7 +29,7 @@ with col2:
     st.subheader("2. Finance Dashboard")
     st.write("Dashboard for visualizing financial data and key metrics.")
     st.link_button("Live App", "https://financedashbpy-cx8jx3ylrwnf4y3aswzaly.streamlit.app/")
-    st.link_button("GitHub Code", "https://github.com/Imanisolace/gdp-dashboard0")
+    st.link_button("GitHub Code", "https://github.com/Imanisolace/gdp-dashboard")
 
 # --- CONTACT ---
 st.markdown("---")
