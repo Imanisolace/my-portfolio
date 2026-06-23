@@ -5,7 +5,7 @@ def load_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-st.set_page_config(page_title="Daniel Mwangi | Portfolio", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Daniel Munyali | Portfolio", page_icon="📊", layout="wide")
 load_css('style.css')
 
 # --- HEADER ---
