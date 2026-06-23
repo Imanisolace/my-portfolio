@@ -2,12 +2,11 @@
     background: linear-gradient(180deg, #0A192F 0%, #112240 100%);
 }
 
-/* FORCE WHITE TEXT EVERYWHERE - no more vanishing */
 h1, h2, h3, h4, h5, h6, p, span, div, li, label {
     color: #FFFFFF !important;
 }
 
-/* GOLD buttons with DARK NAVY text */
+
 .stLinkButton a {
     background: linear-gradient(90deg, #FFD700 0%, #FFB700 100%) !important;
     color: #0A192F !important;
@@ -30,6 +29,6 @@ hr {
     border-top: 1px solid #233554 !important;
 }
 .caption {
-    color: #A8B2D1 !important;  /* Light blue-grey for footer, still visible */
+    color: #A8B2D1 !important;  
     font-size: 13px !important;
 }
