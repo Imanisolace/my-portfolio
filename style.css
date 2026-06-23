@@ -8,7 +8,7 @@ h1, h2, h3, p, span {
 /* MOBILE GOLD BUTTONS - DARK TEXT FIX */
 .stLinkButton a {
     background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%) !important;
-    color: #0A192F !important;
+    color: #0A122F !important;
     font-weight: 800 !important;
     border: none !important;
     border-radius: 12px !important;
