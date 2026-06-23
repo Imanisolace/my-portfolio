@@ -34,7 +34,7 @@ with col2:
 # --- CONTACT ---
 st.markdown("---")
 st.header("Contact")
-st.write("📨 [email](danielmunyali356@gmail.com)")
+st.write("📨 [email](mailto: danielmunyali356@gmail.com)")
 st.write("🔗 [LinkedIn](https://www.linkedin.com/in/daniel-musembi-691040347)")
 st.write("🐙 [GitHub](https://github.com/imanisolace)")
 st.write("🗨️ [whatsapp](https://wa.me/qr/ATOJA2XM3OEPG1)")
