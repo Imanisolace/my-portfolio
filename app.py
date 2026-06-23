@@ -23,7 +23,7 @@ with col1:
     st.subheader("1. Population Logistic Growth")
     st.write("Interactive model showing population growth using logistic equation.")
     st.link_button("Live App", "https://population-logistic-growth.streamlit.app/")
-    st.link_button("GitHub Code", "https://github.com/yourusername/population-logistic-growth")
+    st.link_button("GitHub Code", "https://github.com/Imanisolace/P-logistic-growth")
     
 with col2:
     st.subheader("2. Finance Dashboard")
