@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Innovation & Risk Analytics", 
-    layout="centered",
-    initial_sidebar_state="collapsed"
-)
+def load_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+load_css('style.css')
 
 # --- CUSTOM STYLING - FIXED CONTRAST FOR MOBILE ---
 st.markdown("""
