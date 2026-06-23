@@ -9,7 +9,7 @@ st.set_page_config(page_title="Daniel Mwangi | Portfolio", page_icon="📊", lay
 load_css('style.css')
 
 # --- HEADER ---
-st.title("Daniel Mwangi")
+st.title("Daniel Munyali")
 st.subheader("Risk & Credit Analyst | Data-Driven Portfolio")
 st.write("I build tools that turn messy risk data into clear decisions.")
 
@@ -20,26 +20,22 @@ st.header("Projects")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("1. Risk Dashboard")
-    st.write("Interactive dashboard for monitoring credit risk exposure.")
-    st.link_button("Live App", "https://your-risk-app.streamlit.app")
-    st.link_button("GitHub Code", "https://github.com/yourusername/risk-dashboard")
+    st.subheader("1. Population Logistic Growth")
+    st.write("Interactive model showing population growth using logistic equation.")
+    st.link_button("Live App", "https://population-logistic-growth.streamlit.app/")
+    st.link_button("GitHub Code", "https://github.com/yourusername/population-logistic-growth")
     
-    st.subheader("2. Credit Scoring Model") 
-    st.write("ML model predicting default probability with 89% accuracy.")
-    st.link_button("Live Demo", "https://your-credit-app.streamlit.app")
-    st.link_button("GitHub Code", "https://github.com/yourusername/credit-model")
-
 with col2:
-    st.subheader("3. Portfolio Optimizer")
-    st.write("Tool for optimizing asset allocation based on risk tolerance.")
-    st.link_button("Live App", "https://your-portfolio-app.streamlit.app")
-    st.link_button("GitHub Code", "https://github.com/yourusername/portfolio-opt")
+    st.subheader("2. Finance Dashboard")
+    st.write("Dashboard for visualizing financial data and key metrics.")
+    st.link_button("Live App", "https://financedashbpy-cx8jx3ylrwnf4y3aswzaly.streamlit.app/")
+    st.link_button("GitHub Code", "https://github.com/yourusername/financedashbpy")
 
 # --- CONTACT ---
 st.markdown("---")
 st.header("Contact")
-st.write("📧 your.email@example.com")
+st.write("📨 danielmunyali356@gmail.com")
+st.write("whatsapp: https://wa.me/qr/ATOJA2XM3OEPG1")
 st.write("🔗 [LinkedIn](https://linkedin.com/in/yourprofile)")
 st.write("🐙 [GitHub](https://github.com/yourusername)")
 
