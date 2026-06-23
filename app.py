@@ -34,9 +34,8 @@ with col2:
 # --- CONTACT ---
 st.markdown("---")
 st.header("Contact")
-st.write("📨 danielmunyali356@gmail.com")
-st.write("🗨️[whatsapp](https://wa.me/qr/ATOJA2XM3OEPG1)")
+st.write("📨 [email] danielmunyali356@gmail.com)")
 st.write("🔗 [LinkedIn](https://linkedin.com/in/yourprofile)")
 st.write("🐙 [GitHub](https://github.com/yourusername)")
-
+st.write("🗨️ [whatsapp](https://wa.me/qr/ATOJA2XM3OEPG1)")
 st.markdown('<p class="caption">Built with Streamlit • Deployed on Streamlit Cloud</p>', unsafe_allow_html=True)
