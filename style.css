@@ -1,1 +1,50 @@
+.stApp {
+    background: linear-gradient(180deg, #0A192F 0%, #112240 100%);
+}
+h1, h2, h3, p, span {
+    color: #E6F1FF !important;
+}
 
+/* FORCE DARK TEXT ON GOLD BUTTONS - MOBILE FIX */
+button[kind="primary"], .stButton > button, .stButton > button * {
+    background: linear-gradient(90deg, #FFD700 0%, #FFA500 100%) !important;
+    color: #0A192F !important;
+    font-weight: 800 !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 14px !important;
+    font-size: 16px !important;
+    transition: 0.3s !important;
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2) !important;
+}
+button[kind="primary"]:hover, .stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4) !important;
+    color: #0A192F !important;
+}
+.stButton > button span {
+    color: #0A192F !important;
+}
+
+/* LINK BUTTONS */
+div[data-testid="stLinkButton"] > a {
+    background: #112240 !important;
+    border: 2px solid #FFD700 !important;
+    color: #FFD700 !important;
+    border-radius: 10px !important;
+    padding: 12px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+div[data-testid="stLinkButton"] > a:hover {
+    background: #FFD700 !important;
+    color: #0A192F !important;
+}
+
+hr {
+    border-top: 1px solid #233554 !important;
+}
+.caption {
+    color: #8892B0 !important;
+    font-size: 13px !important;
+}
