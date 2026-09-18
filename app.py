@@ -31,6 +31,10 @@ with col2:
     st.link_button("Live App", "https://financedashbpy-cx8jx3ylrwnf4y3aswzaly.streamlit.app/")
     st.link_button("GitHub Code", "https://github.com/Imanisolace/gdp-dashboard")
 
+with col3:
+    st.subheader("3. interactive physics labs")
+    st.link_button("Live App i", "https://imgdpro-appduqykhbu6zmzcrqcwh5a.streamlit.app/")
+    st.link_button("Live app ii", "https://odrldlrhzwmj3uogt2tgls.streamlit.app/")
 # --- CONTACT ---
 st.markdown("---")
 st.header("Contact")
