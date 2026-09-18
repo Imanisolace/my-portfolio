@@ -17,7 +17,7 @@ st.write("I build tools that turn messy risk data into clear decisions.")
 st.markdown("---")
 st.header("Projects")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.subheader("1. Population Logistic Growth")
