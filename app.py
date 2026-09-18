@@ -17,7 +17,7 @@ st.write("I build tools that turn messy risk data into clear decisions.")
 st.markdown("---")
 st.header("Projects")
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, Cole = st.columns(3)
 
 with col1:
     st.subheader("1. Population Logistic Growth")
@@ -35,6 +35,12 @@ with col3:
     st.subheader("3. interactive physics labs")
     st.link_button("Live App i", "https://imgdpro-appduqykhbu6zmzcrqcwh5a.streamlit.app/")
     st.link_button("Live app ii", "https://odrldlrhzwmj3uogt2tgls.streamlit.app/")
+
+with col4:
+    st.subheader("4. zk proofs generator(data integrity for whitelists)")
+    st.link_button("Live App", "https://basin-zig-production.up.railway.app/")
+    st.link_button("GitHub repo", "https://github.com/Imanisolace/basin-zig")
+
 # --- CONTACT ---
 st.markdown("---")
 st.header("Contact")
